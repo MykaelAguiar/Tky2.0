@@ -1,0 +1,180 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    height: 100vh;
+    background-color: rgb(73, 73, 73);
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: white;
+    
+
+}
+
+header {
+    padding: 2rem;
+    background-color: #A6033F;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+.navbar nav {
+    display: flex;
+    gap: 2rem;
+}
+
+
+main {
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 6px 7px 1px rgba(0, 0, 0, 0.329);
+    min-width: 320px;
+    max-width: 800px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main p {
+    margin: 1rem
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+main {
+    background-color: #012340;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+h1 {
+    font-size: 3.5vw;
+}
+
+p {
+    text-indent: 20px;
+    font-size: 2vw;
+}
+
+.imgs img {
+    margin: 20px 0;
+}
+
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 6px 7px 1px rgba(0, 0, 0, 0.329);
+    border-radius: 10px 0px 0px 10px
+}
+
+.regioes {
+    background-color: #BF2C38;
+    padding: 30px 0px 0px 30px;
+    border-radius: 0px 10px 10px 0px;
+    width: 80%;
+    
+    
+}
+
+.regi h1 {
+    font-size: 1.5rem;
+}
+
+.regi {
+    background-color: #A6033F;
+    box-shadow: 5px 6px 7px 1px rgba(0, 0, 0, 0.329);
+    width: 100%;
+    
+    
+}
+
+.box2 {
+    display: flex;
+    
+}
+
+ul {
+    padding: 10px;
+    margin: 40px;
+    display: block;
+    margin: 0 auto 2rem auto;
+    
+    
+}
+
+li {
+    background-color: #dddddd;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 6px 7px 1px rgba(0, 0, 0, 0.329);
+    list-style-type:'\1F5FE';
+    font-size: 0.9rem;
+    
+}
+
+
+
+abbr {
+    text-decoration: none;
+    background-color: #A6033F;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+.videos {
+    height: 500px;
+    
+}
+
+.videos iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #A6033F;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+}
